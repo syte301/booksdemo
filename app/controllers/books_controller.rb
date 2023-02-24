@@ -1,5 +1,5 @@
 class BooksController < ApplicationController
   def index
-    @files = directory_list.files
+    @files = DirectoryList.files
   end
 end

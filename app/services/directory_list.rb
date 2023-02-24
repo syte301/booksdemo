@@ -10,4 +10,4 @@ class DirectoryList
   end
 end
 
-directory_list = DirectoryList.new('/home/syte/Downloads/*')
+DirectoryList = DirectoryList.new('/home/syte/Downloads/*')
